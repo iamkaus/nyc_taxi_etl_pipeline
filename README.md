@@ -1,6 +1,6 @@
 # NYC Yellow Taxi ETL Pipeline
 
-A batch ETL pipeline built on Databricks (Free Edition) using PySpark and Unity Catalog, following medallion architecture (bronze → silver → gold). Built as a data engineering portfolio project alongside [ArgentIQ](#) (a silver price forecasting system) — this project focuses on pipeline engineering and data quality, where ArgentIQ focuses on modeling.
+A batch ETL pipeline built on Databricks (Free Edition) using PySpark and Unity Catalog, following medallion architecture (bronze → silver → gold). Built as a data engineering portfolio project alongside [ArgentIQ](https://github.com/iamkaus/ArgentIQ.git) (a silver price forecasting system) — this project focuses on pipeline engineering and data quality, where ArgentIQ focuses on modeling.
 
 ## Dataset
 
@@ -42,4 +42,4 @@ Weekly aggregates use ISO week boundaries (Monday start). Since the dataset star
 
 ## Further reading
 
-See `REPORT.md` for the full data quality investigation — including a data integrity finding (25% of trips carrying an undocumented `payment_type` code, co-occurring exactly with nulls across five other fields) traced to root cause rather than blindly cleaned.
+See (REPORT)[REPORT.md] for the full data quality investigation — including a data integrity finding (25% of trips carrying an undocumented `payment_type` code, co-occurring exactly with nulls across five other fields) traced to root cause rather than blindly cleaned.
