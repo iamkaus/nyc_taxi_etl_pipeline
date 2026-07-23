@@ -42,4 +42,4 @@ Weekly aggregates use ISO week boundaries (Monday start). Since the dataset star
 
 ## Further reading
 
-See (REPORT)[https://github.com/iamkaus/nyc_taxi_etl_pipeline/blob/main/README.md] for the full data quality investigation — including a data integrity finding (25% of trips carrying an undocumented `payment_type` code, co-occurring exactly with nulls across five other fields) traced to root cause rather than blindly cleaned.
+See [REPORT](REPORT.md) for the full data quality investigation — including a data integrity finding (25% of trips carrying an undocumented `payment_type` code, co-occurring exactly with nulls across five other fields) traced to root cause rather than blindly cleaned.
